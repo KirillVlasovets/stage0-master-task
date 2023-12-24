@@ -13,7 +13,7 @@ public class Animal {
     }
 
     public String getDescription() {
-        return String.format("This animal is mostly %s. It has %s paws and %s fur.",
+        return String.format("This animal is mostly %s. It has %s and %s fur.",
                 color,
                 numberOfPaws == 1 ? String.format("%d paw", numberOfPaws) : String.format("%d paws", numberOfPaws),
                 hasFur ? "a" : "no");

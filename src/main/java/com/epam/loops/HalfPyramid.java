@@ -12,7 +12,7 @@ public class HalfPyramid {
                     System.out.print("*");
                 }
             }
-            System.out.println(" ");
+            System.out.println();
             counter++;
         }
     }
